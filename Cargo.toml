@@ -1,7 +1,7 @@
 [package]
-name = "crasher"
+name = "rustc-macros-span-bug"
 version = "0.1.0"
 authors = ["HMPerson1 <hmperson1@gmail.com>"]
 
-[dependencies]
-parse_emit = { path = "../parse_emit" }
+[lib]
+proc-macro = true

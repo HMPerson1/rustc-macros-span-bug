@@ -1,7 +1,0 @@
-[package]
-name = "parse_emit"
-version = "0.1.0"
-authors = ["HMPerson1 <hmperson1@gmail.com>"]
-
-[lib]
-proc-macro = true
