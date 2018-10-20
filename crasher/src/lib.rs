@@ -4,5 +4,5 @@ use parse_emit::my_proc_macro;
 #[my_proc_macro]
 fn crashy() {
     if true {} else {}
-    macro_rules! m {() => ();}
+    macro_rules! m {()=>()}
 }

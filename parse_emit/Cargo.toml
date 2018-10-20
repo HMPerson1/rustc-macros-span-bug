@@ -3,10 +3,5 @@ name = "parse_emit"
 version = "0.1.0"
 authors = ["HMPerson1 <hmperson1@gmail.com>"]
 
-[dependencies]
-proc-macro2 = { version = "0.4", features = ["nightly"] }
-quote = "0.6"
-syn = { version = "0.15", features = ["full"] }
-
 [lib]
 proc-macro = true
